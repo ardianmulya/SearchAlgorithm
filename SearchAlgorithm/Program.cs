@@ -11,6 +11,11 @@ namespace SearchAlgorithm
         int[] arr = new int[26];
         int n;
         int i;
+        
+        public void input()
+        {
+            
+        }
         static void Main(string[] args)
         {
         }
