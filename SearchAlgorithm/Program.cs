@@ -60,7 +60,13 @@ namespace SearchAlgorithm
                     mid = (lowerbound + upperbound) / 2;
                     ctr++;
                 }
-                
+                if (item == arr[mid])
+                    Console.WriteLine("\n" + item.ToString() + " found at posisition " + (mid + 1).ToString());
+                else
+                    Console.WriteLine("\n" + item.ToString() + " not found in the array\n");
+                Console.WriteLine("\nNumber of comparision : " + ctr);
+                Console.Write("\nContinue search (y/n) : ");
+                ch = char.Parse(Console.ReadLine());
             }
         }
         static void Main(string[] args)
