@@ -44,6 +44,8 @@ namespace SearchAlgorithm
                 Console.Write("\nEnter element want you to serach : ");
                 int item = Convert.ToInt32(Console.ReadLine());
 
+                int lowerbound = 0;
+                int upperbound = n - 1;
             }
         }
         static void Main(string[] args)
