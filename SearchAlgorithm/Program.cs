@@ -46,6 +46,9 @@ namespace SearchAlgorithm
 
                 int lowerbound = 0;
                 int upperbound = n - 1;
+
+                int mid = (lowerbound + upperbound) / 2;
+                int ctr = 1;
             }
         }
         static void Main(string[] args)
