@@ -136,7 +136,9 @@ namespace SearchAlgorithm
                         Console.WriteLine("error");
                         break;
                 }
-            }
+                Console.WriteLine("\n\nPress Return to exit");
+                Console.ReadLine();
+            } while (pilihanmenu != 3);
         }
     }
 }
