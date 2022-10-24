@@ -100,6 +100,19 @@ namespace SearchAlgorithm
         {
             Program myList = new Program();
             int pilihanmenu;
+
+            do
+            {
+                Console.WriteLine("Menu Option");
+                Console.WriteLine("==================");
+                Console.WriteLine("1.Linear Search");
+                Console.WriteLine("2.Binary Search");
+                Console.WriteLine("3.Exit");
+                Console.Write("Enter your choice (1,2,3) : ");
+                pilihanmenu = Convert.ToInt32(Console.ReadLine());
+
+                
+            }
         }
     }
 }
