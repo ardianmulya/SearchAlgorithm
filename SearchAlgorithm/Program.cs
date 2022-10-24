@@ -129,6 +129,10 @@ namespace SearchAlgorithm
                         myList.input();
                         myList.BinarySearch();
                         break;
+                    case 3:
+                        Console.WriteLine("exit");
+                        break;
+                    
                 }
             }
         }
