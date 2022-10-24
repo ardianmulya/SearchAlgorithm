@@ -98,6 +98,8 @@ namespace SearchAlgorithm
         }
         static void Main(string[] args)
         {
+            Program myList = new Program();
+
         }
     }
 }
