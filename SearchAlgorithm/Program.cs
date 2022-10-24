@@ -111,7 +111,10 @@ namespace SearchAlgorithm
                 Console.Write("Enter your choice (1,2,3) : ");
                 pilihanmenu = Convert.ToInt32(Console.ReadLine());
 
-                
+                switch (pilihanmenu)
+                {
+
+                }
             }
         }
     }
