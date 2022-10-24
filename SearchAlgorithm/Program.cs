@@ -121,7 +121,14 @@ namespace SearchAlgorithm
                         myList.input();
                         myList.LinearSearch();
                         break;
-
+                    case 2:
+                        Console.WriteLine("");
+                        Console.WriteLine(". . . . . . . . . . . .");
+                        Console.WriteLine("Binary Search");
+                        Console.WriteLine(". . . . . . . . . . . .");
+                        myList.input();
+                        myList.BinarySearch();
+                        break;
                 }
             }
         }
